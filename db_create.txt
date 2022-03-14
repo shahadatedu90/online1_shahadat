@@ -1,0 +1,12 @@
+create database Airplane_Management;
+use Airplane_Management;
+
+create table Ticket_booking ( 
+	ID INT(10) AUTO_INCREMENT, 
+	EMAIL char(30), 
+	APP_DATE char(20),
+        FROM_LOCATION char(40),
+        TO_LOCATION char(40),
+        STATUS char(30),
+	PRIMARY KEY(ID) 
+);
